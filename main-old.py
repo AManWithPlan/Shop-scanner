@@ -5,8 +5,12 @@ import time
 import random
 from discord_webhook import DiscordWebhook
 
-mainWebHookUrl = "https://discord.com/api/webhooks/986193114890895360/2pOxYLOkwzep2P7gge2Vw3WzPjPClrl0vfH3zDZveeyQu8o9_iujeYPmm7nx7E_hsr8G"
-logWebHookUrl = "https://discord.com/api/webhooks/848822686128930838/Fsx68SLmrAYwIbOMEZ8mKHm2kaSX2NLmuMvtTTDsDaJZJpxOf3zYyAqYvcs48ww66uSr"
+from dotenv import load_dotenv
+
+load_dotenv()   # load mainWebHookUrl and logWebHookUrl from .env file
+
+# mainWebHookUrl = ""
+# logWebHookUrl = ""
 
 
 def main():
