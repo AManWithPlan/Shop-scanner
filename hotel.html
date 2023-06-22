@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords"
+              content="connexservice, Buchung, Connex Hotelscheck, Kurzurlaub, buchen, Hotel, Connex, Gutschein, Hotelgutschein">
+        <meta name="description" content="Easy booking around the clock! A large selection of hotels for every desired type of holiday in numerous European countries await you.">
+        <title>CONNEXSERVICE.COM</title>
+
+        <link rel="stylesheet" href="https://frontend.connexservice.com/booking/_default/assets/css/booking.min.css">
+        <link rel="stylesheet" href="https://frontend.connexservice.com/booking/_default/assets/css/global.css?v=4">
+        
+        <script type="text/javascript" src="https://frontend.connexservice.com/booking/_default/assets/js/booking.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Open+Sans+Condensed:wght@700&display=swap"
+      rel="stylesheet"/>
+
+        <!-- Google Tag Manager -->
+<script>
+    dataLayer = [{
+        'project_id': '',
+        'program_group': '',
+        'program': '',
+        'voucher_code': '',
+        'partner_number': '',
+        'partner_id': ''
+    }];
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-MCSLWM3');
+</script>
+<!-- End Google Tag Manager -->
+        <!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["setDomains", ["*.booking.connexservice.com"]]);
+  _paq.push(["setCustomVariable", 1, "program", "", "page"]);
+  _paq.push(["setCustomVariable", 2, "program_group", "", "page"]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//p.connexservice.com/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setCustomVariable', 1, "ProjectId", , "page"]);
+    _paq.push(['setSiteId', '106']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//p.connexservice.com/piwik.php?idsite=106" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+
+        <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga_event');
+    try {
+        ga_event('create', 'UA-137691848-1', 'auto');
+        ga_event('send', 'event', 'page', 'voucher', 'voucher');
+    } catch(e) {
+        console.log('error firing event: ' + e);
+    }
+</script>
+        <style>
+        .image-voucher-input {
+        background-image: url("https://frontend.connexservice.com/booking/_default/assets/imgs/img_connexservice_start.jpg");
+    }
+    .image-voucher-input-appear-small {
+        background-image: url("https://frontend.connexservice.com/booking/_default/assets/imgs/img_connexservice_start.jpg");
+    }
+    
+</style>
+        <style>
+</style>
+
+    </head>
+    <body class="cs-CZ"><!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MCSLWM3"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) --><div class="container-fluid header">
+  <script type="text/javascript">
+      function changeLang(lang) {
+          $.ajax({
+              type: "POST",
+              url: "/Main_JHR/changeLang",
+              data: "lang=" + lang,
+              success: function (data, status, xhr) {
+                  window.location.href = "/Check";
+              },
+              dataType: "json"
+          });
+      }
+  </script>
+	
+  <!-- Info Banner -->
+		  <div class="row covid-info" style="background-color: #D9D9D9; color: #545454">
+		<div class="h4">
+		  <i class="fa fa-info-circle"
+			 aria-hidden="true"></i>
+		   <a target="_blank" href="https://www.connex-gutscheine.net/storno/contact"
+			  style="color: #545454"><b>Informace o stornování / změně termínu &gt;</b></a>
+		</div>
+	  </div>
+	  <!-- END Info Banner -->
+  <div class="container">
+
+    <div class="row">
+
+
+                  <div class="col-md-6 col-xs-6 row-logo">
+            <a href="/Check/../check">
+              <img src="https://frontend.connexservice.com/booking/_default/assets/imgs/logos/logo_connexservice.png" alt="">
+            </a>
+          </div>
+        
+                  <div class="col-md-6 col-xs-6 row-column text-right language">
+            <div class="btn-group">
+              <button type="button" class="btn btn-primary btn-sm dropdown-toggle padding-0-r"
+                      data-toggle="dropdown" aria-expanded="false">
+                  Jazyk<span class="caret"></span>
+              </button>
+                <ul class="dropdown-menu pull-right" role="menu">
+
+	<li>
+		<a  onclick="changeLang('11')" href="#">
+			Německý
+					</a>
+	</li>
+	<li>
+		<a  onclick="changeLang('89')" href="#">
+			Anglický
+					</a>
+	</li>
+	<li>
+		<a  onclick="changeLang('36')" href="#">
+			Italský
+					</a>
+	</li>
+	<li>
+		<a  onclick="changeLang('15')" href="#">
+			Francouzština
+					</a>
+	</li>
+	<li>
+		<a  onclick="changeLang('86')" href="#">
+			Maďarský
+					</a>
+	</li>
+	<li>
+		<a class=active onclick="changeLang('82')" href="#">
+			Český
+					</a>
+	</li>
+	<li>
+		<a  onclick="changeLang('70')" href="#">
+			Slovenčina
+					</a>
+	</li>
+	<li>
+		<a  onclick="changeLang('71')" href="#">
+			Slovenian
+					</a>
+	</li>
+	<li>
+		<a  onclick="changeLang('58')" href="#">
+			Polský
+					</a>
+	</li>
+
+</ul>            </div>
+          </div>
+        
+    </div>
+  </div>
+</div>
+        <div class="row">
+            <div class="col-xs-12 ">
+                <div class="carousel slide header-slider-wrapper" data-ride="carousel">                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img class="d-block w-100"
+                                     src="https://frontend.connexservice.com/booking/_default/assets/imgs/slider-content/header_connexbooking_slide1.jpg"
+                                     alt="First slide">
+                            </div>
+                            <div class="item">
+                                <img class="d-block w-100"
+                                     src="https://frontend.connexservice.com/booking/_default/assets/imgs/slider-content/header_connexbooking_slide2.jpg"
+                                     alt="Second slide">
+                            </div>
+                            <div class="item">
+                                <img class="d-block w-100"
+                                     src="https://frontend.connexservice.com/booking/_default/assets/imgs/slider-content/header_connexbooking_slide3.jpg"
+                                     alt="Third slide">
+                            </div>
+                        </div>                    <div class="header-slider-content">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <form id="checkVoucherForm" class="check_voucher_input"
+                                          autocomplete="off" accept-charset="utf-8">
+                                        <!--- Meldung - Serviceausfälle
+                                        <div class="col-xs-12 service_downtime">Aktualizace rezervační­ platformy může dočasně vést k výpadkům služby. Už pracujeme na tom, abychom se co nejdří­ve vrátili zpět k běžné formě. Za komplikace se Vám omlouváme.                                            <br/><br/>
+                                        </div>
+                                        -->
+                                        <div class="checkVoucherFormInput">
+                                            <input class="form-control"
+                                                   placeholder="Číslo poukazu"
+                                                   type="text" id="voucher_code" name="voucher_code"
+                                                   value=""
+                                                   autofocus/>
+
+                                            <div class="checkVoucherFormButton">
+
+                                                <button class="btn btn-voucher btn-checkVoucher ladda-button"
+                                                        data-style="zoom-in" type="submit">
+                                                    <i class="fa fa-suitcase" aria-hidden="true"></i>
+                                                    <span>Zobrazit nabídky</span>
+                                                </button>                                                    <button id="checkValidTo"
+                                                            class="btn btn-voucher btn-reedemVoucher ladda-button"
+                                                            data-style="zoom-in">
+                                                        <i class="fa fa-calendar"></i>
+                                                        <span><p>Kontrola platnosti poukazu</p></span>
+                                                    </button>
+                                            </div>
+                                        </div>
+                                        <div class="contentInfoVocherCeck">
+                                            <div class="form-info"></div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12">
+                <div class="site-content-container">
+                    <div class="site-content">
+                        <div class="h4">
+                            <b>Máte otázky, podněty nebo připomínky?</b>
+                        </div>
+                        <div class="h4">
+                            Jednoduše vyplňte a odešlete tento formulář. Na Vaši zprávu odpovíme co nejdříve.                        </div>
+                        <div class="h4">
+                            <a href="/Main/contact">K formuláři &gt;</a>
+                        </div>                            <!-- TODO in future: only if project is in specific list -> get info from CSR -->
+                            <div class="row quality-section">
+                                <div class="col-xs-4 quality-item">
+                                    <div class="h2">
+                                        <b>
+                                            91%                                        </b>
+                                    </div>
+                                    <div class="h4">
+                                        respondentů je s rezervačním procesem velmi spokojeno                                    </div>
+                                </div>
+                                <div class="col-xs-4 quality-item">
+                                    <div class="h2">
+                                        <b>
+                                            89%                                        </b>
+                                    </div>
+                                    <div class="h4">
+                                        respondentů by doporučilo zarezervovaný hotel dále                                    </div>
+                                </div>
+                                <div class="col-xs-4 quality-item">
+                                    <div class="h2">
+                                        <b>
+                                            90%                                        </b>
+                                    </div>
+                                    <div class="h4">
+                                        respondentů zvažuje dovolenou opět ve stejném hotelu                                    </div>
+                                </div>
+                            </div>                    </div>
+                </div>
+            </div>
+        </div><!-- dialog choose dates -->
+<div class="modal fade" id="legalnotice">
+	<div class="modal-dialog">
+		<div class="modal-content">
+
+			<!-- Overlay Button CLOSE -->
+			<div class="modal-header">
+				<button type="button" class="col-xs-1 close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+
+
+			<!-- CONTENT -->
+			<div class="modal-body">
+
+			<!-- Impressum -->
+				<div class="col-xs-12 modal-title">
+                    Tiráž				</div>
+				<div class="col-xs-12 padding-top padding-bottom">
+					Zastoupení pro ČR a SR:<br /> Connex CEE s.r.o.<br /> Česká 3<br /> 831 03 Bratislava<br /> Slovenská republika<br />E-mail: office-cee@connexgroup.net<br /><br /> Centrála:<br /> Connex Marketing Group<br /> Dr.-Schauer-Straße 26<br /> A-4600 Wels, Rakousko<br /> FN135472z<br /> Firmenbuch LG Wels<br /> UID: ATU 66574334<br /> www.connexgroup.net				</div>
+
+
+				<div class="col-xs-12 padding-bottom">
+                    <div class="headline">Poznámka k ochraně údajů a použití cookies</div>
+					Na této webové stránce je používán software pro analýzu používání webové stránky. Vyhodnocením těchto dat lze získat důležité poznatky o požadavcích uživatelů. Tyto poznatky přispívají ke zlepšení kvality nabídky. V souvislosti s tímto softwarem jsou používány tzv. cookies. Cookies jsou textové soubory, které jsou ukládány na počítači návštěvníka webové stránky a umožňují tak rozpoznání návštěvníka a to anonymně. Cookies mohou být odmítnuty a odstraněny prostřednictvím odpovídajícího nastavení browseru. Užíváním této webové stránky souhlasíte s výše popsaným postupem analýzy užívání této webové stránky.				</div>
+
+				<div class="col-xs-12 padding-bottom">
+                    <div class="headline">Použití služby Google Analytics</div>
+					 This website uses Google Analytics, a web analytics service provided by Google, Inc. (&quot;Google&quot;). Google Analytics uses cookies which are text files stored on your computer to help analyse your use of the website. The information generated by the cookie about your use of this website (including your IP address) will be transmitted to a Google server in the USA and stored there. Google will use this information for the purpose of evaluating your use of the website, compiling reports on website activities for website operators and providing other services relating to website activity and internet usage. Google may also transfer this information to third parties where this is required by law or insofar as third parties process this data on behalf of Google. Google will never associate your IP address with any other data held by Google. You may refuse the installation of cookies by selecting the appropriate settings on your browser; however please note that if you do so you may not be able to use the full functionality of this website. By using this website you consent to the processing by Google of data relating to you in the manner and for the purposes mentioned above. As a user of this website you hereby acknowledge that the operator of this website, their vicarious agents, their representatives, associated companies, chief executives, managerial staff, employees and their shareholders accept no liability in connection with the obtaining, transmission, processing and analysis of the above-mentioned data for which reason no claims for compensation can be asserted against these natural persons and legal entities.				</div>
+
+
+			</div>
+			<!-- CONTENT END-->
+
+		</div>
+	</div>
+</div>
+
+        <div class="footer-box">
+            <div class="facts_block d-grid justify-items-center">
+                <div class="check_voucher_facts_block_group">
+                    <div class="check_voucher_facts_block">
+                        <img class="fact-item google-logo"
+                             alt="Logo Google"
+                             src="https://d1j0es0lhb434m.cloudfront.net/PM/Standard/Logos+Partnerplattformen/Google_Rezension_logo_4_3_RGB_neu.jpg"/>
+                    </div>
+                    <div class="check_voucher_facts_block">
+                        <img class="fact-item siteminder-logo"
+                             alt="Siteminder logo"
+                             src="https://d1j0es0lhb434m.cloudfront.net/PM/Standard/Logos+Partnerplattformen/logo-siteminder.png"/>
+                    </div>
+                    <div class="check_voucher_facts_block">
+                        <img class="fact-item best-quality-logo"
+                             alt="Bestquality logo"
+                             src="https://d1j0es0lhb434m.cloudfront.net/PM/Standard/Logos+Partnerplattformen/logo-bestquality.png"/>
+                    </div>
+                    <div class="check_voucher_facts_block">
+                        <img class="fact-item holiday-check-logo"
+                             alt="Holiday Check logo"
+                             src="https://d1j0es0lhb434m.cloudfront.net/PM/Standard/Logos+Partnerplattformen/logo-holidaycheck.png"/>
+                    </div>
+                </div>
+            </div><div class="row-footer">
+    <div class="footer-container">
+        <div class="footer-text">
+            <p>
+                Společnost Connex již 35 let vyvíjí individuální dárkové poukázky na odpočinek pro dva, které poskytují trvalé potěšení díky širokému a odpovědnému výběru destinací v mnoha evropských zemích a atraktivní nabídky služeb.            </p>
+        </div>            <a class="text-white" target="_blank"
+               href="/Main/contact">Kontakt            </a> |        <a class="text-white" data-toggle="modal"
+           data-target="#legalnotice">Tiráž        </a> |
+        <a class="text-white" target="_blank"
+           href="/Main/generalTerms?program_group=DSE">Ochrana osobních údajů        </a>
+        <div class="text-center">
+            <a href="https://www.climatepartner.com/17831-2111-1001/cs" target="_blank">
+                <img class="logo-image footer-logo"
+                     src="https://d1j0es0lhb434m.cloudfront.net/PM/ClimatePartner/cs/climaneutral-white.png"
+                     alt="Wir sind Klimapartner">
+            </a>
+        </div>
+    </div>
+</div>
+
+<div id="cookieInformation" class="hidden">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-10 cookie-text">
+                <p>Tato webová stránka obsahuje soubory cookies. Používáním této webové stránky souhlasíte s <a href="/Main/generalTerms?program_group=DSE" target="_blank">použitím souborů cookies</a>.</p>
+            </div>
+            <div class="col-sm-2 text-right">
+                <button id="cookieDeclineButton" class="btn btn-md">Ablehnen</button>
+                <button id="cookieAcceptButton" class="btn btn-md">OK!</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        if (window.location !== window.parent.location) {
+            $('#cookieInformation').remove();
+        }
+    });
+</script>
+
+
+
+        </div>
+
+        <style>
+          .corona-text {
+            float: right;
+            margin-top: 25px;
+            background-color: #777777;
+            padding: 5px;
+            border-radius: 4px;
+          }
+
+          .corona-text > span {
+            font-size: large;
+          }
+
+          .corona-text > span {
+            color: white;
+          }
+
+          .to-form {
+            font-size: large !important;
+            padding: 3px;
+            color: white;
+          }
+
+          .info-hotline, .link-shop {
+            background-color: #f1f2f3;
+            min-height: 220px !important;
+            padding: 5px;
+            margin-top: 30px;
+            font-size: 18px;
+          }
+
+          .btn.btn-ext {
+            background-color: rgb(166, 19, 128);
+            color: #fff;
+          }
+
+          h1 {
+            font-family: "DIN Next LT W04 Medium", Arial, Helvetica, sans-serif;
+            font-size: 24px;
+            margin-bottom: 10px;
+            margin-top: 20px;
+            line-height: 1.1;
+          }
+        </style>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('.carousel').carousel({
+                    interval: 5000
+                })
+                $("#checkVoucherForm").on("submit", function (event) {
+                    event.preventDefault();
+
+                    if ($("#voucher_code").val().length < 4) {
+                        setTimeout(function () {
+                            Ladda.stopAll();
+                        }, 500);
+                        return false;
+                    }
+
+                    $(".form-info").empty();
+
+                    var js_form_handler = new JS_Form_Handler(this, "/Check_JHR/checkVoucher");
+                    js_form_handler.post(
+                        function (error) {
+                            if (!error) {
+                                window.location.href = "/index/route";
+                            } else {
+                                $(".ladda-button").ladda().ladda("stop");
+                            }
+                        },
+                        function () {
+                            $(".ladda-button").ladda().ladda("stop");
+                        }
+                    );
+                });
+
+                $("#checkValidTo").click(function (event) {
+                    event.preventDefault();
+                    if ($("#voucher_code").val().length < 4) {
+                        setTimeout(function () {
+                            Ladda.stopAll();
+                        }, 500);
+                        return false;
+                    }
+                    $(".form-info, .help-block").empty();
+
+                    var js_form_handler = new JS_Form_Handler($("#checkVoucherForm"), "/Check_JHR/checkValidTo");
+                    js_form_handler.post(
+                        function (error, data) {
+                            if (!error) {
+                                $("#checkVoucherForm")
+                                    .find(".form-info")
+                                    .html(data["form.info.message_key"])
+                                    .show();
+                                $(".ladda-button").ladda().ladda("stop");
+                                $("#checkVoucherForm").addClass('voucherFormInfo');
+                            //if the product_type is not a bookable voucher the valid_to time should still be displayed
+                            } else if(data["form.error_message"] === "fw.voucher.code.booking_url.invalid_product_type"){
+                                $("#checkVoucherForm")
+                                    .find(".form-info")
+                                    .html(data["form.info.message_key"])
+                                    .show();
+                                $(".ladda-button").ladda().ladda("stop");
+                                $("#checkVoucherForm").addClass('voucherFormInfo');
+                            } else {
+                                $("#checkVoucherForm").addClass('voucher-form-error');
+                                $(".image-voucher-input").addClass('voucher-form-error');
+                                $(".ladda-button").ladda().ladda("stop");
+                            }
+                        },
+                        function () {
+                            $(".ladda-button").ladda().ladda("stop");
+                        }
+                    );
+                });
+            });
+        </script>
+
+        
+    </body>
+</html>
